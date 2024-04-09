@@ -100,11 +100,76 @@
             </div>
           </a>
         </div>
-        <a href="" class="course-button">
-          <p class="course-button-text">すべてのコースを見る</p>
+        <a href="" class="button" id="see_more">
+          <p class="button-text">すべてのコースを見る</p>
           <img src="img/arrow-right.svg" alt="矢印" />
         </a>
       </div>
     </section>
+    <section class="signup">
+      <div class="signup-wrapper">
+        <h2 class="signup-title">Let's Try!</h2>
+        <p class="signup-text">
+          Grand
+          Playersでは、ご利用登録いただけた方に対し、３レッスン分の無料枠をプレゼントいたします！<br />
+          今すぐレッスンを始めて、”Grand”なプレイヤーを目指しましょう！<br />
+          お申し込みは下記フォームからどうぞ！
+        </p>
+        <form action="https://example.com" method="post" class="signup-form">
+          <div class="input">
+            <div class="signup-input-wrapper">
+              <label for="name">お名前</label>
+              <input
+                class="signup-input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="エドワード ヴァン 太郎"
+              />
+            </div>
+            <div class="signup-input-wrapper">
+              <label for="mail">メールアドレス</label>
+              <input
+                class="signup-input"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="grand.players@example.com"
+              />
+            </div>
+            <div class="signup-input-wrapper">
+              <label for="years">ギター歴 (年)</label>
+              <input
+                class="signup-input"
+                type="number"
+                name="years"
+                id="years"
+                placeholder="3"
+                min="0"
+              />
+            </div>
+            <div class="signup-input-wrapper">
+              <label for="enthusiasm">意気込みをどうぞ！</label>
+              <textarea
+                class="signup-input"
+                name="enthusiasm"
+                id="enthusiasm"
+                placeholder="イカすギターソロをかましてモテた～い！"
+                rows="6"
+              ></textarea>
+            </div>
+          </div>
+          <button class="button" id="transmission">
+            <p class="button-text">送信</p>
+            <img src="img/arrow-right.svg" alt="矢印" />
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">©2023 GrandPlayers</p>
+      </div>
+    </footer>
   </body>
 </html>
